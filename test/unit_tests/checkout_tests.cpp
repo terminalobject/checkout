@@ -8,3 +8,7 @@ TEST(CheckoutTests, CanInstantiateCheckout) {
     Checkout co;
 }
 
+TEST(CheckoutTests, CanAddItemPrice) {
+    Checkout co;
+    co.addItemPrice("a", 1);
+}

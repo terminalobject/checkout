@@ -10,7 +10,9 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 set(sources /Users/noesis/Projects/gtest-minimal-example/src/)
 set(sources ${sources}/checkout.h ${checkout}/checkout.cpp)
-set(test_sources /Users/noesis/Projects/checkout/test/unit_tests/checkout_tests.cpp)
+set(test_sources /Users/noesis/Projects/checkout/test/unit_tests/checkout_tests.cpp
+  /Users/noesis/Projects/checkout/src/checkout.h
+  /Users/noesis/Projects/checkout/src/checkout.cpp)
 add_executable(checkout_tests ${test_sources})
 #add_executable(checkout ${sources})
 target_link_libraries(checkout_tests gtest_main)
