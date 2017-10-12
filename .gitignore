@@ -1,0 +1,17 @@
+*.log
+
+*.pc
+
+Makefile
+
+*.cmake
+
+/test/googletest/
+
+/CMakeFiles/
+
+CMakeCache.txt
+
+/test/unit_tests/CMakeFiles/
+
+.DS_Store
