@@ -40,3 +40,7 @@ TEST_F(CheckoutTests, CanCalculateTotalWithDiscount) {
     int total = checkOut.calculateTotal();
     ASSERT_EQ(2, total);
 }
+
+TEST_F(CheckoutTests, ItemWithNoPriceException) {
+    ASSERT_THROW( checkOut.addItem("a"), std::invalid_argument );
+}
