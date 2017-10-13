@@ -15,3 +15,7 @@ CMakeCache.txt
 /test/unit_tests/CMakeFiles/
 
 .DS_Store
+
+*.swp
+
+
