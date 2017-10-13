@@ -23,6 +23,9 @@ protected:
     std::map<std::string, Discount> discounts;
     std::map<std::string, int> items;
     int total;    
+
+    void calculateItem(std::string item, int itemCnt);
+    void calculateDiscount( std::string item, int itemCnt, Discount discount );
 };
 
 #endif
